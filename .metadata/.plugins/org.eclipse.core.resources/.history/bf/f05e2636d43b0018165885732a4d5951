@@ -1,0 +1,22 @@
+package HandlingNewBugfix;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.BorderLayout;
+import javax.swing.JButton;
+
+public class Results extends JFrame 
+{
+	public Results() {
+		
+		JPanel panel = new JPanel();
+		getContentPane().add(panel, BorderLayout.WEST);
+		panel.setLayout(null);
+		
+		JPanel panel_1 = new JPanel();
+		getContentPane().add(panel_1, BorderLayout.NORTH);
+	}
+	
+	
+	
+}

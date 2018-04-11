@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;Preprocessing.Vector.ElementList&apos; in &apos;Preprocessing.Vector&apos;&#x0D;&#x0A;- Original project: &apos;EMR&apos;&#x0D;&#x0A;- Original element: &apos;Preprocessing.Vector.ElementList&apos;&#x0D;&#x0A;- Getter method name: &apos;getElementList&apos;&#x0D;&#x0A;- Setter method name: &apos;setElementList&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;ElementList&apos;" flags="589830" getter="getElementList" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;Preprocessing{Vector.java[Vector^ElementList" insertion="-1" setter="setElementList" stamp="1523187030471" version="1.0" visibility="1"/>
+</session>
