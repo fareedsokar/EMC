@@ -1,0 +1,21 @@
+package HandlingNewBugfix;
+import java.*;
+
+public class FuzzyCmeans {
+
+	private final static int MAX_DATA_POINTS=10000;
+	final static int MAX_CLUSTER=100;
+	private final static int MAX_DATA_DIMENSION=5;
+	private int num_data_points;
+	private int num_clusters;
+	private int num_dimensions;
+	
+	private double low_high[][]=new double[MAX_DATA_POINTS][2];
+	private double degree_of_memb[][]=new double[MAX_DATA_POINTS][MAX_CLUSTER];
+	private double epsilon;
+	private double fuzziness;
+	private double data_point[][]=new double [MAX_DATA_POINTS][MAX_DATA_DIMENSION];
+	private  double cluster_centre[][] =new double [MAX_CLUSTER][MAX_DATA_DIMENSION];
+	
+	
+}
