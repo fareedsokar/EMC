@@ -3,6 +3,7 @@ package Pre_System;
 public class History {
 	private User Username;
 	private Result[] ResultList;
+	
 	public User getUsername() {
 		return Username;
 	}

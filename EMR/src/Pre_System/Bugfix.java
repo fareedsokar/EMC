@@ -1,9 +1,11 @@
 package Pre_System;
 
 public class Bugfix {
+	
 	private String Path;
 	private String Bugfix;
 	private Vector RepresentativeBugfixVector;
+	
 	public Vector getRepresentativeBugfixVector() {
 		return RepresentativeBugfixVector;
 	}

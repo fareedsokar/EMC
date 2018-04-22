@@ -9,6 +9,10 @@ package Preprocessing;
  * Wikipedia documentation on Ziv-Lempel.
  */
 
+
+/////////////////////  To change from files to strings////////////////
+
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
