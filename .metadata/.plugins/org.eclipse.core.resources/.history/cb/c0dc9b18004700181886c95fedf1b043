@@ -37,43 +37,11 @@ public class LempleZivCompressor {
  * @return boolean - True if compression is successful,
  *                   false otherwise.
  */
-public static int compress(String decomp) {
-	ArrayList<String> dictionary = new ArrayList<>(255);
-    for(int i = 0; i < 26; i++)
-    {
-        String temp = (char)(i+65)+"";
-        dictionary.add(temp);
-    }
-    char arra[]=
-    String X, Z, line;
-    while((line = reader.readLine()) != null)
-    {
-        int inc = 0;
-        while( inc < line.length())
-        {
-            X = line.charAt(inc) + "";          //X is current character
-            Z = line.charAt(++inc) + "";        //Z is next character
-
-            while(dictionary.contains(X+Z))     //Loop until the sequence of
-            {                                   //characters is not in dictionary
-                X = X+Z;
-                inc++;
-                if(inc < line.length())
-                    Z = line.charAt(inc) + "";
-                else                            //Reached the end of input
-                    Z = null;
-            }
-            dictionary.add(X+Z);                //Add String to dictionary
-
-            //Write index to output
-            writer.write(dictionary.indexOf(X) + " ");
-        }
-            writer.write("\n");
-    }
-
+public static String compress(String decomp) {
 	
 	
-	return -1;//For Error
+	
+	return "";
 }
 
 public static boolean compress(String inFilePath, String outFilePath)
